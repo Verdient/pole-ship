@@ -1,0 +1,30 @@
+{
+    "name": "verdient/pole-ship",
+    "description": "PoleShip",
+    "type": "library",
+    "keywords": [
+        "PoleShip"
+    ],
+    "homepage": "https://github.com/Verdient/pole-ship",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Verdient.",
+            "email": "fagui.zhu@foxmail.com",
+            "homepage": "https://github.com/Verdient"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/Verdient/pole-ship/issues",
+        "source": "https://github.com/Verdient/pole-ship"
+    },
+    "require": {
+        "php": "^8.0",
+        "verdient/http-api": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Verdient\\PoleShip\\": "src"
+        }
+    }
+}
